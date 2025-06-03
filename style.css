@@ -1,0 +1,80 @@
+/* Estilos Generales */
+@font-face {
+            font-family: 'duko'; /* El nombre que usarás en font-family */
+            src: url('/recursos/Duko-Regular.ttf') format('woff2'), /* Ruta al archivo WOFF2 */
+                 url('/recursos/Duko-Regular.ttf') format('woff');   /* Ruta al archivo WOFF */
+            /* Puedes agregar otros formatos como TTF, OTF */
+        }
+
+
+h1, h2, h3, h4, h5{
+    font-family: 'duko', sans-serif;
+}
+
+p{
+        font-family: 'Arial', sans-serif;
+}
+
+.logo a{
+    font-family: 'duko', sans-serif;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #000000; 
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Tamaño del logo */
+    color: #333;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 15px;
+    font-size: 1.1rem; 
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff4d4d; 
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #333; 
+}
+
+.btn-outline-dark {
+    border-color: #333;
+    color: #333;
+}
+
+.btn-outline-dark:hover {
+    background-color: #333;
+    color: #000000;
+}
+
+.btn-danger {
+    background-color: #ff4d4d; 
+    border: none;
+}
+
+.btn-danger {
+    background-color: #ff4d4d; 
+    border: none;
+    color: #fff; 
+}
+
+.btn-danger:hover {
+    background-color: #ff0000; 
+    color: #fff;
+}
+ 
+.border-box {
+    border-radius: 8px; 
+    margin-bottom: 20px; 
+}

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Boletos - Duki Ameri Tour</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container logo">
+        <!-- Logo a la izquierda -->
+        <a class="navbar-brand" href="#home">
+            <i class="fas fa-music"></i> Duki Ameri Tour
+        </a>
+
+        <!-- Botón del menú móvil -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Elementos del menú centrados -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Características</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#boletos">Boletos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#promociones">Promociones</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Botones a la derecha -->
+        <div class="d-flex">
+            <button class="btn btn-outline-dark me-2" type="button">Login</button>
+            <button class="btn btn-danger" type="button">Compra Ya</button>
+        </div>
+    </div>
+</nav> 
+
+<!-- Sección Héroe -->
+<section id="hero" class="hero-section">
+    <div class="container mt-5"> 
+        <div class="row">
+            <div class="col-md-6 text-start">
+                <h1>Duki Ameri Tour</h1>
+            </div>
+            <div class="col-md-6 text-start">
+                <h3>Gira Centro Americana</h3>
+                <p>Duki, el fenómeno del trap argentino, llega a Centroamérica con su esperada Gira Ameri.
+                    No te pierdas la oportunidad de vivir una noche mágica llena de música y emociones. 
+                    ¡Compra tus boletos ahora y sé parte de esta experiencia inolvidable!</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="hero-image text-center mt-4"> 
+        <img src="recursos/duki horizontal rojo.jpg" alt="Duki en concierto" class="img-fluid">
+    </div>
+</section>
+
+
+
+    
+    <section id="features" class="mt-5">
+        <div class="container">
+            <h2 class="text-center">Gran Estreno Ameri Tour </h2>
+
+            <!--carrusel -->
+            <div id="carouselExample" class="carousel slide mt-4" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="recursos/concierto.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="recursos/duketo horizontal.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="recursos/duketo.jfif" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="recursos/Duki.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="recursos/Duki cantando.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+ <!-- Features Section -->
+<section id="features" class="py-5 text-center">
+    <div class="container">
+       
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="border-box bg-dark text-white p-3"> 
+                    <h3>Entrega Rapida</h3>
+                    <p>Recibe tus boletos al instante.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="border-box bg-dark text-white p-3"> 
+                    <h3>Asientos Exclusivos</h3>
+                    <p>Disfruta del espectáculo con los mejores asientos.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="border-box bg-dark text-white p-3"> 
+                    <h3>Concierto Unico</h3>
+                    <p>Una experiencia inolvidable.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Boletos Cards -->
+<section id="boletos" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-start">
+                <h1>La gira por Centro America mas esperada del año</h1>
+            </div>
+            <div class="col-md-6 text-start"> 
+                <p>🌟 ¡No te pierdas el "Tour Ameri" de Duki en Centroamérica! 🌟
+                    ¡La espera ha terminado! Duki, el ícono del trap argentino, llega a tu ciudad con su Tour Ameri y promete un espectáculo inolvidable. 🎤✨</p>
+            </div>
+        </div>
+        
+        <h2 class="text-center mt-4"></h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center"> 
+                        <h5 class="card-title">Guatemala</h5>
+                        <p class="card-text">Fecha: 21 Octubre 2024</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBoletos" data-city="Guatemala" data-date="21 Octubre 2024" data-price="$100">
+                            Comprar
+                        </button>
+                    </div>
+                    <img src="recursos/Alas-Duki-1.png" class="card-img-bottom" alt="Guatemala">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center"> 
+                        <h5 class="card-title">El Salvador</h5>
+                        <p class="card-text">Fecha: 25 Octubre 2024</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBoletos" data-city="El Salvador" data-date="25 Octubre 2024" data-price="$120">
+                            Comprar
+                        </button>
+                    </div>
+                    <img src="recursos/Alas-Duki-1.png" class="card-img-bottom" alt="Otra Ciudad">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center"> 
+                        <h5 class="card-title">Honduras</h5>
+                        <p class="card-text">Fecha: 30 Octubre 2024</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBoletos" data-city="Honduras" data-date="30 Octubre 2024" data-price="$110">
+                            Comprar
+                        </button>
+                    </div>
+                    <img src="recursos/Alas-Duki-1.png" class="card-img-bottom" alt="Más Ciudad">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center"> 
+                        <h5 class="card-title">Nicaragua</h5>
+                        <p class="card-text">Fecha: 5 Noviembre 2024</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBoletos" data-city="Nicaragua" data-date="5 Noviembre 2024" data-price="$90">
+                            Comprar
+                        </button>
+                    </div>
+                    <img src="recursos/Alas-Duki-1.png" class="card-img-bottom" alt="Nueva Ciudad">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="modalBoletos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Resumen de Boletos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Ciudad</th>
+                            <th>Fecha</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="recursos/Alas-Duki-1.png" alt="" style="width: 50px; height: auto;">
+                            </td>
+                            <td id="modalCity"></td>
+                            <td id="modalDate"></td>
+                            <td id="modalPrice"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Script para actualizar el modal
+    document.querySelectorAll('[data-bs-toggle="modal"]').forEach(button => {
+        button.addEventListener('click', function () {
+            const city = this.getAttribute('data-city');
+            const date = this.getAttribute('data-date');
+            const price = this.getAttribute('data-price');
+
+            document.getElementById('modalCity').textContent = city;
+            document.getElementById('modalDate').textContent = date;
+            document.getElementById('modalPrice').textContent = price;
+        });
+    });
+</script>
+
+                        
+                       
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+                         
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                       
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
